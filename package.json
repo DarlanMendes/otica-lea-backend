@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "build": "tsc && prisma generate",
-    "start": "node src/main.js",
+    "start": "node main.js",
     "postinstall": "prisma generate",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node-dev src/main.ts"
